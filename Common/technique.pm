@@ -24,6 +24,7 @@ use OpenGL::Debug qw(
   glGetUniformLocationARB_p
   glUseProgramObjectARB
   glGetError
+  glGetShaderInfoLog_p
 );
 
 use IO::All -binary;
